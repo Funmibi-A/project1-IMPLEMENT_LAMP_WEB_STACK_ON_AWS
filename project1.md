@@ -68,7 +68,6 @@ In the spiral development model, the development process is driven by the unique
 - **V-Shaped**
 In the V-shaped model, verification phases and validation phases are run in parallel. Each verification phase is associated with a validation phase, and the model is run in a V-shape, where each phase of development has an associated phase of testing.
 
-
 ### LAMP STACK
 
 ***LAMP = Linux, Apache, MySQL, PHP/Python/Perl***
@@ -128,7 +127,6 @@ d  = directory
 3rd rwx = any other user
 
 e.g chmod -R 774 filename
-
 
 ```
 
@@ -327,6 +325,7 @@ Is a message-oriented communication protocol that allows computing devices and a
 > Check for syntax error in the configuration files
      
      sudo apache2ctl configtest
+     
 ![syntax check](./images/sysntax_check.jpeg)
 
 > Reload Apache to effect changes
@@ -351,7 +350,7 @@ Is a message-oriented communication protocol that allows computing devices and a
 
     http://ec2-44-212-67-132.compute-1.amazonaws.com:80
 
-![webpage up dn](./images/webpage_up_dns.jpeg)
+![webpage up dns](./images/webpage_up_dns.jpeg)
 
 ### Step 5 - Enable php on the website
 
